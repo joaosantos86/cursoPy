@@ -8,7 +8,16 @@
 
 # // ENTRADA
 
+temperatura = int(input("Informe a temperatura: "))
 
+if temperatura < 100:
+    print("Está muito baixa!")
+elif temperatura <= 200:
+    print("Está baixa!")
+elif temperatura < 500:
+    print("Está normal!")
+else:  # temperatura >= 500
+    print("Está muito alta!")
 
 
 
